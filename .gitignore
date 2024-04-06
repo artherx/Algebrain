@@ -33,3 +33,90 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+#bun
+# Archivos generados por Bun
+.bun
+.bun.lockb
+
+# Directorios generados por Bun
+/bun-webkit
+/bun-wasm
+/bun-test-scratch
+/bun-zigld
+/bun-binary
+/bun-mimalloc
+/bun-nomimalloc
+/bun-singlehtreaded
+
+# Directorios y archivos relacionados con pruebas
+/test-report.json
+/test-report.md
+/test.js
+/test.ts
+/testdir
+
+# Directorios y archivos de construcción
+/build-*/
+/build
+/build.ninja
+/cmake_install.cmake
+/CMakeCache.txt
+/CMakeFiles
+/parceldist
+/yarn.lock
+/zig-cache
+/zig-out
+
+# Directorios y archivos específicos de proyectos
+/node_modules
+/node_modules_*
+/out
+/out.*
+/outcss
+/outdir
+/outdir/
+/packages/*/*.wasm
+/packages/bun-*/*.o
+/packages/bun-*/bun
+/packages/bun-*/bun-profile
+/packages/bun-*/debug-bun
+/packages/bun-cli/bin/*
+/packages/bun-cli/postinstall.js
+/packages/bun-wasm/*.cjs
+/packages/bun-wasm/*.d.cts
+/packages/bun-wasm/*.d.mts
+/packages/bun-wasm/*.d.ts
+/packages/bun-wasm/*.js
+/packages/bun-wasm/*.map
+/packages/bun-wasm/*.mjs
+/packages/debug-*
+
+# Otros archivos y directorios
+/.cache
+/.vscode
+/.vscode/clang*
+/.vscode/cpp*
+/.DS_Store
+/.env
+/.envrc
+/.eslintcache
+/.idea
+/.next
+/.ninja_deps
+/.ninja_log
+/.npm
+/.npm.gz
+/.parcel-cache
+/.swcrc
+/.trace
+/.uuid
+/.vs
+/.webkit-cache
+/README.md.template
+/release/
+/sign.*.json
+/sign.json
+/tsconfig.tsbuildinfo
+/x64
+
