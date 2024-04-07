@@ -8,16 +8,16 @@ const MyButton = ({ onPress }) => {
     <TouchableOpacity onPress={router.back}>
       <View style={styles.container}>
         {/* Utiliza SvgUri para renderizar tu archivo SVG */}
-          <Atras fill={'#fff'} />
-        
+        <Atras width={50} height={50} fill="#fff" />
       </View>
     </TouchableOpacity>
   );
 };
 const styles = StyleSheet.create({
   container: {
-    width:'30px',
-    height: '40px'
+    width:30,
+    height: 40,
+    padding:5
   },
 });
 export default MyButton;

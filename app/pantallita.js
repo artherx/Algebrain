@@ -6,7 +6,6 @@ export default function pantalla() {
         <View style={styles.container}>
             <TopBar/>
             <Text>dasd</Text>
-            asd
         </View>
     );
   }

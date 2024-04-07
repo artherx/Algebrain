@@ -3,10 +3,10 @@ import Svg, { Rect } from "react-native-svg";
 
 const Atras = (props) => (
   <Svg
-    width={55}
-    height={69}
+    width={props.width}
+    height={props.height}
     fill="none"
-    viewBox="0 0 70 70"
+    viewBox={`0 0 100 100`} // Corrección en la definición de viewBox
     {...props}
   >
     <Rect
