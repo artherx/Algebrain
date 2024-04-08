@@ -1,8 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View,} from 'react-native';
 import { useRouteInfo } from 'expo-router/build/hooks';
 import { router } from 'expo-router';
-import Icon from '@img/boton';
-import Prueba from '@img/prueba';
 
 export default function App() {
   
@@ -14,8 +12,6 @@ export default function App() {
           <Text>hola</Text>  
         </TouchableOpacity>
       </View>
-      <Prueba/>
-      <Icon width={200} height={100} primaryColor="#AA5B5B" secondaryColor="#FBAAAA"/>
     </View>
   );
 }

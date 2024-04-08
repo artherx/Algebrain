@@ -7,6 +7,7 @@ module.exports = function(api) {
         "alias": {
           "@components": "./assets/components",
           "@img": "./assets/img",
+          "@fonts": "./assets/fonts",
         }
       }]
     ]
