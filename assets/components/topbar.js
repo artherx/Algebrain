@@ -1,15 +1,16 @@
 import MyButton from '@components/button';
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { router } from 'expo-router';
 
-const TopBar = ({ title, onPress }) => {
+const TopBar = ({ title="nombre", onPress=router.back  }) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={onPress}>
-        <MyButton/>
+        <MyButton />
       </TouchableOpacity>
-      <Text style={styles.title}>{title}</Text>
-      <View style={{ flex: 1 }} />
+      <Text style={styles.title}>{title}</Text> {/* Cambiado el texto para que muestre el título */}
+      <View style={{ width: 50 }} /> {/* Espacio adicional, puedes ajustar el ancho según sea necesario */}
     </View>
   );
 };

@@ -1,11 +1,10 @@
 import { StyleSheet, Text, TouchableOpacity, View,} from 'react-native';
-import { useRouteInfo } from 'expo-router/build/hooks';
-import { router } from 'expo-router';
+import { router,  } from 'expo-router';
 
 export default function App() {
-  
   return (
-    <View style={styles.container}>
+      <View style={styles.container}>
+  
       <Text>Open up App.js to start working on your app!</Text>
       <View>
         <TouchableOpacity onPress={()=>router.navigate('/selector')} style={styles.boton}>
@@ -19,7 +18,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -28,5 +26,5 @@ const styles = StyleSheet.create({
     color:'#fff',
     padding: 10,
     borderRadius: 8
-  }
+  },
 });
