@@ -8,9 +8,17 @@ export default function Pantalla() {
   const letras=Arimo();
   return (
     <View style={{flex:1}}>
-      <TopBar/>
+      <TopBar title="Etapa 1:Sistemas de Ecuaciones Lineales (SEL) y Matrices"/>
       <ScrollView contentContainerStyle={styles.container}>
-        <Text style={{fontFamily:'Arimo-Bold'}}>Pantalla</Text>
+        <View>
+        <Text style={{fontFamily:'Arimo-Bold'}}>parte1</Text>
+        </View>
+        <View>
+        <Text style={{fontFamily:'Arimo-Bold'}}>parte2</Text>
+        </View>
+        <View>
+        <Text style={{fontFamily:'Arimo-Bold'}}>parte3</Text>
+        </View>
       </ScrollView>
     </View>
 
