@@ -1,122 +1,24 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# build output
+dist/
+
+# generated types
+.astro/
 
 # dependencies
 node_modules/
 
-# Expo
-.expo/
-dist/
-web-build/
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Native
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# environment variables
+.env
+.env.production
 
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
+# macOS-specific files
 .DS_Store
-*.pem
 
-# local env files
-.env*.local
-
-# typescript
-*.tsbuildinfo
-
-#bun
-# Archivos generados por Bun
-.bun
-.bun.lockb
-
-# Directorios generados por Bun
-/bun-webkit
-/bun-wasm
-/bun-test-scratch
-/bun-zigld
-/bun-binary
-/bun-mimalloc
-/bun-nomimalloc
-/bun-singlehtreaded
-
-# Directorios y archivos relacionados con pruebas
-/test-report.json
-/test-report.md
-/test.js
-/test.ts
-/testdir
-
-# Directorios y archivos de construcción
-/build-*/
-/build
-/build.ninja
-/cmake_install.cmake
-/CMakeCache.txt
-/CMakeFiles
-/parceldist
-/yarn.lock
-/zig-cache
-/zig-out
-
-# Directorios y archivos específicos de proyectos
-/node_modules
-/node_modules_*
-/out
-/out.*
-/outcss
-/outdir
-/outdir/
-/packages/*/*.wasm
-/packages/bun-*/*.o
-/packages/bun-*/bun
-/packages/bun-*/bun-profile
-/packages/bun-*/debug-bun
-/packages/bun-cli/bin/*
-/packages/bun-cli/postinstall.js
-/packages/bun-wasm/*.cjs
-/packages/bun-wasm/*.d.cts
-/packages/bun-wasm/*.d.mts
-/packages/bun-wasm/*.d.ts
-/packages/bun-wasm/*.js
-/packages/bun-wasm/*.map
-/packages/bun-wasm/*.mjs
-/packages/debug-*
-
-# Otros archivos y directorios
-/.cache
-/.vscode
-/.vscode/clang*
-/.vscode/cpp*
-/.DS_Store
-/.env
-/.envrc
-/.eslintcache
-/.idea
-/.next
-/.ninja_deps
-/.ninja_log
-/.npm
-/.npm.gz
-/.parcel-cache
-/.swcrc
-/.trace
-/.uuid
-/.vs
-/.webkit-cache
-/README.md.template
-/release/
-/sign.*.json
-/sign.json
-/tsconfig.tsbuildinfo
-/x64
-
+# jetbrains setting folder
+.idea/
